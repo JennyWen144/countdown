@@ -3,6 +3,18 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+p {
+  text-align: right;
+  font-size: 60px;
+  font-family: "Impact";
+  color: #000000;
+  margin-top:0px;
+  text-shadow:
+		-2px -2px 0 #F00,
+		2px -2px 0 #F00,
+		-2px 2px 0 #F00,
+		2px 2px 0 #F00;
+}
 img {
     display: block;
     margin-left: auto;
@@ -42,11 +54,11 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "I'm out. BYEEEEE";
     }
 }, 1000);
 </script>
-<img src="https://openclipart.org/download/237853/air6.svg" width="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://openclipart.org/download/237853/air6.svg" width="30%"> &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://pbs.twimg.com/profile_images/535227808075632641/8v1VXpVL.png" width="30%">
 </body>
 </html>

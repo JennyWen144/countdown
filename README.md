@@ -1,2 +1,2 @@
 # countdown
-site: https://bananabot.github.io/countdown/
+site: https://JennyWen144.github.io/countdown/
